@@ -8,6 +8,7 @@ Honor Code and Acknowledgments:
     This work complies with the JMU Honor Code.
     (Describe any help you got.)
 """
+from pickle import NONE
 from util import Location, get_neighbor
 
 class Robot:
@@ -21,6 +22,7 @@ class Robot:
 
     def __init__(self):
         # Initialize instance variables here.
+        obstacles = NONE
         pass
 
     def step(self, loc: Location) -> int:
